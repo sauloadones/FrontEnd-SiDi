@@ -1,5 +1,5 @@
 import './styles.css'
-import Head from "@components/Head";
+import Head from '../../components/head/head';
 import Signup from '@components/signup';
 
 const Register = () => {

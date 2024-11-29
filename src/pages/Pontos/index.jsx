@@ -1,5 +1,5 @@
 import './styles.css'
-import Head from '@components/head';   
+import Head from '../../components/head/head';  
 import BodyFrame from '@components/body-frame';
 import { useState, useEffect } from 'react';
 import { API_ENDPOINTS, API } from "@api";

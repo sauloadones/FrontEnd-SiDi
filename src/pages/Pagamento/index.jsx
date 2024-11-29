@@ -1,6 +1,6 @@
 import './styles.css'
 import BodyFrame from '@components/body-frame';
-import Head from '@components/Head';
+import Head from '../../components/head/head';
 import { FaRegCircleXmark } from "react-icons/fa6";
 
 const Pagamento = () => {

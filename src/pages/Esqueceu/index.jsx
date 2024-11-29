@@ -1,6 +1,6 @@
 import './styles.css'
 import { MdEmail } from "react-icons/md";
-import Head from "@components/Head";
+import Head from '../../components/head/head';
 
 const ForgotPassaword = () => {
     
