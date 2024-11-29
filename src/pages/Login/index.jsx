@@ -1,5 +1,6 @@
 import './styles.css'
-import Head from "@components/Head";
+import Head from '../../components/head/head';
+// import Head from "@components/Head";
 import Signin from '@components/signin';
 
 const Login = () => {
