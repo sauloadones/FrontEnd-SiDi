@@ -1,0 +1,62 @@
+.error-text {
+  color: red;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.content-input input {
+  background-color: #4CA77A33;
+  padding: 10px 25px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  margin-bottom: 5px;
+}
+.content-input input::placeholder {
+  font-style: normal;
+  font-size-adjust: initial;
+  color: #231636;
+}
+.button {
+  padding: 8px 78px;
+  font-size: 16px;
+  color:#F0F0F0; /* Cor do texto */
+  border: none;
+  border-radius: 25px;
+  cursor: pointer;
+  background: linear-gradient(90deg,#4CA77A 0%, #231636 100%); /* Roxo para verde */
+  background-size: 100%; /* Ajuste para o efeito de transição */
+  transition: background-position 0.4s; /* Transição suave ao passar o mouse */
+  width: 200px;
+  align-self: center;
+  border-width: none;
+  margin-bottom: 65px;
+}
+
+.container-nav {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-nav p {
+  color: #231636;
+  margin-bottom: 6px;
+  font-size: xx-small;
+}
+
+
+.container-nav a {
+  color: #231636;
+  margin-bottom: 6px;
+  font-size: xx-small; 
+}
+
+.container-nav .a-termos{
+  text-decoration: none;
+  color: #4CA77A;
+}
+
+.container-nav .cadastre-a {
+  color: #4CA77A;
+}

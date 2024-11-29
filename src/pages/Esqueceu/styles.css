@@ -1,0 +1,93 @@
+.container-forgot {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    
+    
+}
+
+.container-image {
+    background-image: url("/imagens/smiley-couple-using-laptop-home.jpg");
+    position: absolute;
+    background-position: center;
+    background-size:cover;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    z-index: 10;
+
+} 
+
+.container-form-forgot {
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 80px;
+    background-color: #F0F0F0;
+    z-index: 20;
+}
+
+.container-form-forgot .header-title {
+    margin-bottom: 5px;
+}
+
+.container-form-forgot .header-title h1 {
+    color: #471D7C;
+    margin-bottom: 18px;
+
+}
+.container-form-forgot .header-title p {
+    color: #471D7C;
+    margin-bottom: 18px;
+
+}
+
+.container-form-forgot form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 13px;
+    
+
+}
+
+.content-input input {
+    background-color: #4CA77A33;
+    padding: 10px 25px;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    margin-bottom: 5px;
+}
+.content-input input::placeholder {
+    font-style: normal;
+    font-size-adjust: initial;
+    color: #231636;
+}
+.button {
+    padding: 8px 78px;
+    font-size: 16px;
+    color:#F0F0F0; /* Cor do texto */
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    background: linear-gradient(90deg,#4CA77A 0%, #231636 100%); /* Roxo para verde */
+    background-size: 100%; /* Ajuste para o efeito de transição */
+    transition: background-position 0.4s; /* Transição suave ao passar o mouse */
+    width: 200px;
+    align-self: center;
+    border-width: none;
+    margin-bottom: 65px;
+
+}
+
