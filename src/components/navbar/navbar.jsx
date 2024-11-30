@@ -1,4 +1,4 @@
-import "./Navbar.css";
+import "./navbar.css";
 import { FaRegCircleUser } from "react-icons/fa6";
 import { useNavigate } from 'react-router-dom'
 
