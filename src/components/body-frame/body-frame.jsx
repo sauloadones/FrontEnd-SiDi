@@ -1,5 +1,5 @@
 import "./body-frame.css"
-import Navbar from "@components/Navbar"
+import Navbar from '../navbar/navbar'
 import SideMenu from "@components/side-menu"
 
 const BodyFrame = ({children}) => {
