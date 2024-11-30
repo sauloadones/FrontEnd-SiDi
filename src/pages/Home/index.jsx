@@ -1,7 +1,7 @@
 import './styles.css';
 import { useState, useEffect } from 'react';
 import { API_ENDPOINTS, API } from "@api";
-import BodyFrame from '@components/body-frame';
+import BodyFrame from '../../components/body-frame/body-frame'
 import Head from '../../components/head/head';
 
 const Home = () => {

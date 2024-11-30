@@ -1,5 +1,5 @@
 import './styles.css'
-import BodyFrame from '@components/body-frame';
+import BodyFrame from '../../components/body-frame/body-frame';
 import Head from '../../components/head/head';
 import { FaRegCircleXmark } from "react-icons/fa6";
 

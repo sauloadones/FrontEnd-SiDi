@@ -1,6 +1,6 @@
 import './styles.css'
 import Head from '../../components/head/head';  
-import BodyFrame from '@components/body-frame';
+import BodyFrame from '../../components/body-frame/body-frame';
 import { useState, useEffect } from 'react';
 import { API_ENDPOINTS, API } from "@api";
 import { FaRegCircleXmark } from "react-icons/fa6";
